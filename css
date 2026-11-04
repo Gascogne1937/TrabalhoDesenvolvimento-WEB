@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.vagas {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.coluna {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+}
+
+ol {
+    text-align: left;
+}
+
+li {
+    margin: 8px 0;
+}
+button {
+    background-color: none;
+    color: white;
+    border: purple;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+body {
+    background-image: url("Imagem/estacionamento.JPEG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* ESTILO DA PÁGINA DE CADASTRO */
+
+.form-container {
+    max-width: 650px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.btn-enviar {
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-enviar:hover {
+    background-color: #0056b3;
+}
+.btn-retornar:hover {
+    background-color: purple;
+}
+
+footer {
+background-color: purple;
+color: aquamarine;
+text-align: center;
+padding: 10px;
+width: 100%;
+
+}
+.item-veiculo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+    border-left: 5px solid purple;
+    border-radius: 6px;
+    text-align: left;
+}
+
+.item-veiculo span {
+    font-size: 13px;
+    color: #666;
+}
+
+.btn-remover {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.btn-remover:hover {
+    background-color: #a71d2a;
+}
