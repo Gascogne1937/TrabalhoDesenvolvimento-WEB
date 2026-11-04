@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Veículo - Estacionamento</title>
+    <link rel="stylesheet" href="styleVagas.css">
+</head>
+<body>
+    <header>
+        <h1>Cadastro de Veículo</h1>
+    </header>
+
+    <main>
+        <div class="form-container">
+            <form id="formulario">
+                <div class="form-group">
+                    <label for="nome">Nome do Proprietário:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Ex: João Silva" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="Numero">Número do Apartamento:</label>
+                    <input type="text" id="Numero" name="numero" placeholder="Ex: Apto 102" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="telefone">Telefone de Contato:</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="Ex: (48) 99999-9999" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="placa">Placa do Veículo:</label>
+                    <input type="text" id="placa" name="placa" placeholder="Ex: ABC1D23" required style="text-transform: uppercase;">
+                </div>
+
+                <div class="form-group">
+                    <label for="modelo">Marca / Modelo:</label>
+                    <input type="text" id="modelo" name="modelo" placeholder="Ex: Toyota Corolla" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="tipo">Tipo de Veículo:</label>
+                    <select id="tipo" name="tipo" required>
+                        <option value="" disabled selected>Selecione uma opção</option>
+                        <option value="carro">Carro</option>
+                        <option value="moto">Moto</option>
+                        <option value="caminhonete">Caminhonete / SUV</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="cor">Cor:</label>
+                    <input type="text" id="cor" name="cor" placeholder="Ex: Preto" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="entrada">Horário de Entrada:</label>
+                    <input type="datetime-local" id="entrada" name="entrada" required>
+                </div>
+
+                <button type="submit" class="btn-enviar">Registrar Entrada</button>
+            </form>
+
+            <!-- Container onde a lista gerada pelo JS vai aparecer -->
+            <hr style="margin: 25px 0;">
+            <h2>Veículos Estacionados</h2>
+            <div id="lista-veiculos"></div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Estacionamento condomínio. Todos os direitos reservados.</p>
+        <p>Endereço: Intendente Antonio Damasco, 1223 - Florianópolis, SC</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
