@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Estacionamento</title>
+    <link rel="stylesheet" href="styleVagas.css">
+</head>
+
+<body>
+    <header>
+         <h1>Vagas Disponíveis</h1>
+    </header>
+<main>
+    <div class="container">
+       
+
+        <div class="vagas">
+
+            <div class="coluna">
+                <ol>
+                    <li>Vaga 01 <p><a href="index.html"><button type="button">Cadastrar </buttom></a></li></p>
+                    <li>Vaga 02<p><a href="index.html"><button type="button">Cadastrar </buttom></a></li></p>
+                    <li>Vaga 03<p><a href="index.html"><button type="button">Cadastrar </buttom></a></li></p>
+                    <li>Vaga 04<p><a href="index.html"><button type="button">Cadastrar </buttom></a></li></p>
+                    <li>Vaga 05<p><a href="index.html"><button type="button">Cadastrar </buttom></a></li></p>
+                    <li>Vaga 06<p><a href="index.html"><button type="button">Cadastrar </buttom></a></li></p>
+                    <li>Vaga 07<p><a href="index.html"><button type="button">Cadastrar </buttom></a></li></p>
+                    <li>Vaga 08<p><a href="index.html"><button type="button">Cadastrar </buttom></a></li></p>
+                    <li>Vaga 09<p><a href="index.html"><button type="button">Cadastrar </buttom></a></li></p>
+                    <li>Vaga 10<p><a href="index.html"><button type="button">Cadastrar </buttom></a></li></p>
+                </ol>
+            </div>
+
+            <div class="coluna">
+                <ol start="11">
+                    <li>Vaga 11<p><a href="index.html"><button type="button">Cadastrar </buttom></a></li></p>
+                    <li>Vaga 12<p><a href="index.html"><button type="button">Cadastrar </buttom></a></li></p>
+                    <li>Vaga 13<p><a href="index.html"><button type="button">Cadastrar </buttom></a></li></p>
+                    <li>Vaga 14<p><a href="index.html"><button type="button">Cadastrar </buttom></a></li></p>
+                    <li>Vaga 15<p><a href="index.html"><button type="button">Cadastrar </buttom></a></li></p>
+                    <li>Vaga 16<p><a href="index.html"><button type="button">Cadastrar </buttom></a></li></p>
+                    <li>Vaga 17<p><a href="index.html"><button type="button">Cadastrar </buttom></a></li></p>
+                    <li>Vaga 18<p><a href="index.html"><button type="button">Cadastrar </buttom></a></li></p>
+                    <li>Vaga 19<p><a href="index.html"><button type="button">Cadastrar </buttom></a></li></p>
+                    <li>Vaga 20<p><a href="index.html"><button type="button">Cadastrar </buttom></a></li></p>
+                </ol>
+            </div>
+
+            <div class="coluna">
+                <ol start="21">
+                    <li>Vaga 21<p><a href="index.html"><button type="button">Cadastrar </buttom></a></li></p>
+                    <li>Vaga 22<p><a href="index.html"><button type="button">Cadastrar </buttom></a></li></p>
+                    <li>Vaga 23<p><a href="index.html"><button type="button">Cadastrar </buttom></a></li></p>
+                    <li>Vaga 24<p><a href="index.html"><button type="button">Cadastrar </buttom></a></li></p>
+                    <li>Vaga 25<p><a href="index.html"><button type="button">Cadastrar </buttom></a></li></p>
+                    <li>Vaga 26<p><a href="index.html"><button type="button">Cadastrar </buttom></a></li></p>
+                    <li>Vaga 27<p><a href="index.html"><button type="button">Cadastrar </buttom></a></li></p>
+                    <li>Vaga 28<p><a href="index.html"><button type="button">Cadastrar </buttom></a></li></p>
+                    <li>Vaga 29<p><a href="index.html"><button type="button">Cadastrar </buttom></a></li></p>
+                    <li>Vaga 30<p><a href="index.html"><button type="button">Cadastrar </buttom></a></li></p>
+                </ol>
+            </div>
+
+        </div>
+    </div>
+    </main>
+    <footer>
+        
+            <p> &copy; 2026 Estacionamento condominio Todos os direitos reservados.</p>
+            <p> Endereço: Intendente Antonio Damasco, 1223 - Florianopolis, SC</p>
+    </footer>
+
+</body>
+</html>
